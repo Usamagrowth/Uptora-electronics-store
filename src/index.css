@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Next and Prev swiper */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: #ff0000;         
+}
+
+
+/* Default dots */
+.mySwiper .swiper-pagination-bullet {
+  background: #d1d5db; 
+  opacity: 1;
+}
+
+/* Active dot */
+.mySwiper .swiper-pagination-bullet-active {
+  background: #ff0000;  
+  transform: scale(1.3); 
+}
