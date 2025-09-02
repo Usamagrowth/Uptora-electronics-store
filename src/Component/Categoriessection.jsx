@@ -1,4 +1,4 @@
-import Card from "./Categoriescard";
+import Categoriescard from "./Categoriescard";
 import Acs from "../assets/Acs.jpg"
 import Tvs from "../assets/Tvs.jpg"
 import phone from "../assets/phone.jpg"
@@ -15,52 +15,52 @@ const Categoriessection = () => {
     <section className="flex flex-col gap-5">
      <h2 className="font-bold text-2xl">Shop by Category</h2>
      <div className="grid lg:grid-cols-5 grid-cols-2 gap-5">
-     <Card
+     <Categoriescard
       pimage={Acs}
       ptitle="Acs"
       pdescription="10 Products in store"
      />
-     <Card
+     <Categoriescard
       pimage={Tvs}
       ptitle="Tvs"
       pdescription="20 Products in store"
      />
-     <Card
+     <Categoriescard
       pimage={phone}
       ptitle="Phone"
       pdescription="40 Products in store"
      />
-      <Card
+      <Categoriescard
       pimage={Laptop}
       ptitle="laptop"
       pdescription="30 Products in store"
      />
-     <Card
+     <Categoriescard
       pimage={homeapp1}
       ptitle="Washing Machines"
       pdescription="7 Products in store"
      />
-     <Card
+     <Categoriescard
       pimage={kitchenapp}
       ptitle="Kichen Aplliances"
       pdescription="10 Products in store"
      />
-     <Card
+     <Categoriescard
       pimage={smarthome}
       ptitle="Smart Home"
       pdescription="15 Products in store"
      />
-     <Card
+     <Categoriescard
       pimage={fridge}
       ptitle="Refrigerator"
       pdescription="9 Products in store"
      />
-      <Card
+      <Categoriescard
       pimage={Tvs1}
       ptitle="Home Aplliances"
       pdescription="15 Products in store"
      />
-      <Card
+      <Categoriescard
       pimage={kitchenapp2}
       ptitle="Home Aplliances"
       pdescription="15 Products in store"

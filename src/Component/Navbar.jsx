@@ -3,7 +3,6 @@ import { useState } from "react"
 import { IoCart } from "react-icons/io5"
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { Menu, Search, X } from "lucide-react";
-import Login from "../pages/Login";
 
 const Navbar = () => {
     const [categories, setCategories] = useState(false);
@@ -44,7 +43,7 @@ const Navbar = () => {
         {mobilenav ? <X /> :
          <Menu/>}
         </span>
-         <Link className="font-bold text-3xl text-[#ff0000]" path="/solar-power" to="/" >Logo</Link>
+         <Link className="font-bold text-3xl text-[#ff0000]" path="/solar-power" to="/" >Uptora</Link>
          </div>
           <div className="hidden lg:flex w-[700px] h-[47px]  border  border-gray-500 rounded-[20px]">
          <input type="text" placeholder="Search Product" className="outline-none w-[100%] h-[100%] ml-5" />

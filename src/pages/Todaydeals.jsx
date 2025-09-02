@@ -1,7 +1,9 @@
+import Productcard from "../Component/Productcard";
+
 const Todaydeals = () => {
   return (
-    <div>Todaydeals</div>
+  <div></div>
   )
 }
 
-export default Todaydeals
+export default Todaydeals;

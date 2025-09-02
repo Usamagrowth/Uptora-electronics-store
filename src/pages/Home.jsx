@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
 import Categoriessection from "../Component/Categoriessection";
 import Herosection from "../Component/Herosection"
-import Navbar from "../Component/Navbar"
-import Productsection from "../Component/Productsection";
 import Promotion from "../Component/Promotion";
 import Promotion2 from "../Component/Promotion2";
-import Solarsection from "../Component/Solarsection";
 import Createandplay from "../Component/Createandplay";
+import Todaydealsection from "../Component/Todaydealsection";
+import Solarpowersection from "../Component/Solarpowersection";
+import Airconditioner from "../Component/Airconditioner";
+
 
 const Home = () => {
   return (
@@ -14,9 +14,10 @@ const Home = () => {
         <Herosection />
         <Categoriessection />
         <Promotion />
-        <Productsection />
+        <Todaydealsection />
         <Promotion2 />
-        <Solarsection />
+        <Solarpowersection />
+        <Airconditioner />
         <Createandplay />
     </section>
   )
