@@ -20,10 +20,10 @@ import Dashboard from "./pages/Dashboard";
 const App = () => {
   return (
         <section className="px-16 py-5 space-y-9">
-        <Navbar />
+     
         <Routes >
         <Route path="/" element={<Home />} />
-         <Route path="/home-appliances" element={<HomeAppliances />} />
+        <Route path="/home-appliances" element={<HomeAppliances />} />
         <Route path="/solar-power" element={<SolarPower />} />
         <Route path="/audio-video" element={<AudioandVideotvs />} />
         <Route path="/refrigerator" element={<Refrigerator/>} />

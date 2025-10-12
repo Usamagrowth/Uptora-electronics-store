@@ -9,7 +9,7 @@ const Card = ({product_src, product_newsrc, product_alt, product_name, product_d
      };
 
     return (
-    <div>
+    <div className="p-1 shadow-xl">
         <div>
         <p className="cursor-pointer absolute mt-3 ml-2 px-2 bg-white rounded-[20px]">Sale!</p>
         <Link to="/cartpage" className="flex flex-col gap-3"  onMouseEnter={shownewimg} onMouseLeave={shownewimg}>
