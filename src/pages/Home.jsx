@@ -6,11 +6,13 @@ import Createandplay from "../Component/Createandplay";
 import Todaydealsection from "../Component/Todaydealsection";
 import Solarpowersection from "../Component/Solarpowersection";
 import Airconditioner from "../Component/Airconditioner";
+import Navbar from "../Component/Navbar";
 
 
 const Home = () => {
   return (
     <section className="space-y-9">
+        <Navbar /> 
         <Herosection />
         <Categoriessection />
         <Promotion />
