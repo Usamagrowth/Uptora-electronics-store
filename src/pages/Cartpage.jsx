@@ -4,9 +4,9 @@ const Cartpage = () => {
   return (
     <div>
     <Navbar />
-    <div>Cartpage</div>
+    <div>Cartpage in Progress</div>
     </div>
   )
 }
 
-export default Cartpage
+export default Cartpage;
