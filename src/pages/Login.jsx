@@ -3,6 +3,7 @@ import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../Component/Navbar";
 
 const Login = () => {
 const [action, setAction] = useState("Sign Up")
@@ -17,6 +18,8 @@ const [showpassword, setShowpassword] = useState(false)
   dashboard("/dashboard")
  };
   return (
+    <div className="flex flex-col space-y-10">
+    <Navbar />
     <div className="w-full h-fit p-12  bg-[url('./images/headsetimage.jpg')] bg-cover bg-center">
     <span className="flex justify-center items-center p-2" >
    <div className="flex flex-col gap-4 justify-center items-center h-[430px] p-3 w-[470px] rounded-[40px] border border-white backdrop-blur-[6px]">
@@ -58,6 +61,7 @@ const [showpassword, setShowpassword] = useState(false)
 </form>
 </div>
 </span>
+</div>
 </div>
   )
 }
