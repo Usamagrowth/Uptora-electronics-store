@@ -79,11 +79,12 @@ const Navbar = () => {
       </ul>
       </div>
     </nav>
-     <aside className="block lg:hidden  w-full">
-         {mobilenav && <ul className="flex flex-col gap-4 px-14 py-3 top-13 w-full left-0 absolute rounded-xl shadow-sm bg-white">
+     <aside>
+      <div className="lg:hidden  flex">
+         {mobilenav && <ul className="flex flex-col w-full gap-4 px-3 py-3  rounded-xl shadow-lg bg-white">
         <li className="relative group" onMouseEnter={productCategories} onMouseLeave={productCategories}>
         <button className="flex items-center">All Product <RiArrowDropDownLine className="h-[40px] w-[30px]"/> </button>
-       {categories && <ul className="absolute hidden group-hover:flex  rounded-[20px] bg-white px-5 py-3 shadow-lg w-[200px] flex-col gap-3">
+       {categories && <ul className="flex rounded-[20px] bg-white px-5 py-3 shadow-lg flex-col gap-3">
             {pcategories.map((item, index) => ( 
               <li key={index} className="">
                 <Link to={item.path} className="flex hover:text-[#ff0000]">
@@ -102,6 +103,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>}
+      </div>
         </aside>
     </div>
   )
