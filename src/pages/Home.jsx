@@ -7,6 +7,7 @@ import Todaydealsection from "../Component/Todaydealsection";
 import Solarpowersection from "../Component/Solarpowersection";
 import Airconditioner from "../Component/Airconditioner";
 import Navbar from "../Component/Navbar";
+import Login from "./Login";
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
         <Promotion2 />
         <Solarpowersection />
         <Airconditioner />
+        <Login />
         <Createandplay />
     </section>
   )

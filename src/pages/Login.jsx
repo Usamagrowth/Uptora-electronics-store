@@ -18,7 +18,7 @@ const [showpassword, setShowpassword] = useState(false)
   dashboard("/dashboard")
  };
   return (
-    <div className="flex px-9 ">
+    <div className="flex px-5 ">
     <div className="flex flex-col space-y-7">
     <Navbar />
     <div className="w-[400px] h-[400px] bg-[url('./images/headsetimage.jpg')] bg-cover bg-center rounded-[40px]">
