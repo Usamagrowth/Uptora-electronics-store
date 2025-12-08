@@ -17,7 +17,7 @@ const product = product.find(p => p.id === parseInt(id));
   }*/
 
   return (
-    <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 grid-cols-1 gap-5 space-y-5">
+    <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 grid-cols-2 gap-5 space-y-5">
     {Productlist.map((product, index) => ( 
     <div key={index}>
         <div>
