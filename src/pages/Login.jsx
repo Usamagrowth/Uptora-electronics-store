@@ -18,10 +18,11 @@ const [showpassword, setShowpassword] = useState(false)
   dashboard("/dashboard")
  };
   return (
-    <div className="flex flex-col space-y-10">
+    <div className="flex px-9 ">
+    <div className="flex flex-col space-y-7">
     <Navbar />
-    <div className="w-full h-fit p-12  bg-[url('./images/headsetimage.jpg')] bg-cover bg-center">
-    <span className="flex justify-center items-center p-2" >
+    <div className="w-[400px] h-[400px] bg-[url('./images/headsetimage.jpg')] bg-cover bg-center rounded-[40px]">
+    <span className="flex  justify-center items-center">
    <div className="flex flex-col gap-4 justify-center items-center h-[430px] p-3 w-[470px] rounded-[40px] border border-white backdrop-blur-[6px]">
     <div className="text-white text-[22px] font-bold pb-2">{action}</div>
     <form onSubmit={handleLogin}>
@@ -61,6 +62,7 @@ const [showpassword, setShowpassword] = useState(false)
 </form>
 </div>
 </span>
+</div>
 </div>
 </div>
   )

@@ -11,7 +11,7 @@ import Navbar from "../Component/Navbar";
 
 const Home = () => {
   return (
-    <section className="space-y-9">
+    <section className="space-y-9 px-5 ">
         <Navbar /> 
         <Herosection />
         <Categoriessection />

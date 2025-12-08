@@ -1,6 +1,5 @@
-import { Routes, Route, Router } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Navbar from "./Component/Navbar";
 import SolarPower from "./pages/SolarPower";
 import HomeAppliances from "./pages/HomeAppliances";
 import AudioandVideotvs from "./pages/AudioandVideotvs";
@@ -19,7 +18,7 @@ import Shoping from "./pages/Shoping";
 import Dashboard from "./pages/Dashboard";
 const App = () => {
   return (
-        <section className="px-16 py-5 space-y-9">
+        <section>
      
         <Routes >
         <Route path="/" element={<Home />} />

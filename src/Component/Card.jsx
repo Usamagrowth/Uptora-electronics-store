@@ -27,7 +27,7 @@ const Card = ({product_src, product_newsrc, product_alt, product_name, product_d
            <p className="font-semibold text-xl">{product_description}</p>
            <div className="lg:flex-row flex-col flex gap-3 lg:gap-8 lg:items-center">
            <p className="font-semibold">{product_price}</p>
-           <Link to="/cartpage"><button className="rounded-[20px] px-3 py-1 border w-fit border-[#ff0000]" >Add To Cart</button></Link>
+           <Link to="/cartpage"><button className="rounded-[20px] px-2 py-1 border max-w-[120px] border-[#ff0000]" >Add To Cart</button></Link>
            </div>
         </div>
       </div>

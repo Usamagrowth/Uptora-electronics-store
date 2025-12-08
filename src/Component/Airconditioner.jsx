@@ -3,8 +3,8 @@ import Card from "./Card"
 const Airconditioner = () => {
   return (
      <section className="flex flex-col gap-5">
-     <h2 className="font-bold text-2xl">Solar Power</h2>
-     <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 space-y-5">
+     <h2 className="font-bold text-2xl">Air Conditional</h2>
+     <div className="grid lg:grid-cols-4 grid-cols-1 gap-5 space-y-5">
      <Card 
      product_src="/images/ac1.webp"
      product_newsrc="/images/Acs.jpg"

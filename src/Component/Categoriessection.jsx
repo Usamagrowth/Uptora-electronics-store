@@ -14,7 +14,7 @@ const Categoriessection = () => {
   return (
     <section className="flex flex-col gap-5">
      <h2 className="font-bold text-2xl">Shop by Category</h2>
-     <div className="grid lg:grid-cols-5 grid-cols-2 gap-5">
+     <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-2 gap-5">
      <Categoriescard
       pimage={Acs}
       ptitle="Acs"

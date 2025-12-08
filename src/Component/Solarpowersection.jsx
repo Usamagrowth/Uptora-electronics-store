@@ -4,7 +4,7 @@ const Solarpowersection = () => {
   return (
      <section className="flex flex-col gap-5">
      <h2 className="font-bold text-2xl">Solar Power</h2>
-     <div className="grid lg:grid-cols-4 grid-cols-2 gap-5 space-y-5">
+     <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 grid-cols-1 gap-5 space-y-5">
      <Card 
      product_src="/images/solar4.webp"
      product_newsrc="/images/solar1.png"

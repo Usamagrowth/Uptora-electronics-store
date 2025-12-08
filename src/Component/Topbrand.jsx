@@ -1,6 +1,6 @@
 
 
-const Navbar = () => {
+const Topbrand = () => {
 
 
   return (
@@ -8,4 +8,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Topbrand;
