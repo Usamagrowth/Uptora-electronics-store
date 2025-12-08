@@ -21,7 +21,6 @@ const Home = () => {
         <Promotion2 />
         <Solarpowersection />
         <Airconditioner />
-        <Login />
         <Createandplay />
     </section>
   )

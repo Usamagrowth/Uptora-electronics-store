@@ -21,9 +21,9 @@ const [showpassword, setShowpassword] = useState(false)
     <div className="flex px-5 ">
     <div className="flex flex-col space-y-7">
     <Navbar />
-    <div className="w-[400px] h-[400px] bg-[url('./images/headsetimage.jpg')] bg-cover bg-center rounded-[40px]">
+    <div className="h-[400px] bg-[url('./images/headsetimage.jpg')] bg-cover bg-center rounded-[40px]">
     <span className="flex  justify-center items-center">
-   <div className="flex flex-col gap-4 justify-center items-center h-[430px] p-3 w-[470px] rounded-[40px] border border-white backdrop-blur-[6px]">
+   <div className="flex flex-col gap-4 justify-center items-center h-[430px] w-=[370px] p-3 rounded-[40px] border border-white backdrop-blur-[6px]">
     <div className="text-white text-[22px] font-bold pb-2">{action}</div>
     <form onSubmit={handleLogin}>
 <div className="flex flex-col gap-5">
