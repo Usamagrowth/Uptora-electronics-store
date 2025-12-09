@@ -8,6 +8,7 @@ import Solarpowersection from "../Component/Solarpowersection";
 import Airconditioner from "../Component/Airconditioner";
 import Navbar from "../Component/Navbar";
 import Login from "./Login";
+import Loginsec from "../Component/Loginsec";
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         <Promotion2 />
         <Solarpowersection />
         <Airconditioner />
+        <Loginsec />
         <Createandplay />
     </section>
   )
