@@ -3,7 +3,7 @@ import React from 'react'
 const Login = () => {
   return (
     <div>
-      <Loginsec />
+      Login Page Loading
     </div>
   )
 }
